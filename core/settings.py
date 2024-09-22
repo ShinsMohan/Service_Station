@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "dashboard",
     "wash_service"
 ]
 
@@ -70,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'service_station.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database
